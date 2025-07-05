@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Welcome to Our Demo Landing Page</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', Arial, sans-serif;
+      background: linear-gradient(135deg, #2c5364 0%, #203a43 50%, #0f2027 100%);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      text-align: center;
+      padding: 60px 20px 30px 20px;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0 0 10px 0;
+      letter-spacing: 2px;
+    }
+    header p {
+      font-size: 1.3rem;
+      color: #dfe6e9;
+      margin: 0 0 30px 0;
+    }
+    .cta-btn {
+      display: inline-block;
+      background: #00c6ff;
+      background: linear-gradient(90deg, #00c6ff 0%, #0072ff 100%);
+      color: #fff;
+      font-size: 1.1rem;
+      font-weight: bold;
+      padding: 14px 34px;
+      border: none;
+      border-radius: 30px;
+      text-decoration: none;
+      box-shadow: 0 6px 24px rgba(0,0,0,0.12);
+      transition: background 0.3s, transform 0.2s;
+      margin-top: 20px;
+    }
+    .cta-btn:hover {
+      background: #0072ff;
+      transform: translateY(-3px) scale(1.05);
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin: 50px auto 0 auto;
+      max-width: 900px;
+      padding: 0 20px;
+    }
+    .feature {
+      background: rgba(255,255,255,0.05);
+      border-radius: 16px;
+      padding: 30px 24px;
+      flex: 1 1 240px;
+      min-width: 240px;
+      max-width: 280px;
+      text-align: center;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+    }
+    .feature h2 {
+      font-size: 1.4rem;
+      color: #00c6ff;
+      margin-bottom: 12px;
+      font-weight: bold;
+    }
+    .feature p {
+      color: #b2bec3;
+      font-size: 1rem;
+      margin: 0;
+    }
+    footer {
+      margin-top: auto;
+      text-align: center;
+      padding: 30px 10px 15px 10px;
+      color: #636e72;
+      font-size: 1rem;
+      letter-spacing: 1px;
+    }
+    @media (max-width: 700px) {
+      header h1 {
+        font-size: 2.1rem;
+      }
+      .features {
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 4vw;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Our Demo Landing Page</h1>
+    <p>Discover the power of a modern, responsive, and beautiful landing page.<br>
+      Experience how easy it is to get started with your next project!</p>
+    <a href="#get-started" class="cta-btn">Get Started</a>
+  </header>
+  <section class="features">
+    <div class="feature">
+      <h2>🚀 Fast & Lightweight</h2>
+      <p>Loads instantly and is optimized for fast performance, ensuring your users stay engaged.</p>
+    </div>
+    <div class="feature">
+      <h2>📱 Responsive Design</h2>
+      <p>Looks great on all devices — from mobile phones to large desktop screens.</p>
+    </div>
+    <div class="feature">
+      <h2>🛠️ Easy Customization</h2>
+      <p>Simple HTML and CSS structure makes it easy to adapt this template to your needs.</p>
+    </div>
+  </section>
+  <footer>
+    &copy; 2025 Demo Landing Page &mdash; Crafted with ♥ for your next big idea.
+  </footer>
+</body>
+</html>
