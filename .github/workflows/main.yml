@@ -1,0 +1,10 @@
+name: Saludo en cada push
+
+on: push
+
+jobs:
+  greetings:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Custom greetings
+        run: echo "Hi. Thanks for contribute a new commit"
